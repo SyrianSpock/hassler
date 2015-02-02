@@ -49,7 +49,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Portable Hassler circuit"
 Date "Mon 02 Feb 2015"
 Rev "A"
@@ -589,7 +589,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 3800 8200 3800
 Wire Wire Line
-	8200 2950 8200 3800
+	8200 3800 8200 2950
 Wire Wire Line
 	8050 2950 8250 2950
 Connection ~ 7000 3050
@@ -799,4 +799,10 @@ Wire Wire Line
 Connection ~ 8100 2950
 Wire Wire Line
 	6350 4950 6350 2850
+$Sheet
+S 2300 5200 950  750 
+U 54D134FA
+F0 "LithiumUSBPower" 60
+F1 "lipo-usb-power.sch" 60
+$EndSheet
 $EndSCHEMATC
