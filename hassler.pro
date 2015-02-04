@@ -1,4 +1,4 @@
-update=Mon 02 Feb 2015 21:16:00 CET
+update=Mit 04 Feb 2015 22:57:09 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -75,3 +73,5 @@ LibName43=kicad-lib/components/_sensors
 LibName44=kicad-lib/components/_stm32
 LibName45=kicad-lib/components/_wireless
 LibName46=kicad-lib/components/_audio
+[general]
+version=1

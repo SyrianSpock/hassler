@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name _connectors)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/footprints/_connectors.mod)(options "")(descr ""))
+)

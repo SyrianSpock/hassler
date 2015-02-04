@@ -110,11 +110,7 @@ F 3 "" H 4700 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3350 4700 3350
-Wire Wire Line
-	4700 3350 5100 3350
-Wire Wire Line
-	5100 3350 5800 3350
+	4500 3350 5800 3350
 Wire Wire Line
 	4700 3350 4700 3450
 $Comp
@@ -249,11 +245,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 3600 7600 3350
 Wire Wire Line
-	6800 3350 7600 3350
-Wire Wire Line
-	7600 3350 7900 3350
-Wire Wire Line
-	7900 3350 7950 3350
+	6800 3350 7950 3350
 $Comp
 L CONN_01X02 J1
 U 1 1 54D143F1

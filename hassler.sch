@@ -378,17 +378,6 @@ F 3 "" H 9000 1700 60  0000 C CNN
 	1    9000 1700
 	0    -1   -1   0   
 $EndComp
-$Comp
-L C C1
-U 1 1 54D0019F
-P 8600 1700
-F 0 "C1" H 8650 1800 50  0000 L CNN
-F 1 "220u" H 8650 1600 50  0000 L CNN
-F 2 "" H 8638 1550 30  0000 C CNN
-F 3 "" H 8600 1700 60  0000 C CNN
-	1    8600 1700
-	1    0    0    -1  
-$EndComp
 Text Notes 9400 2350 0    60   ~ 0
 Resistor needs \nto whistand 2.5W
 Text Notes 7350 4100 0    60   ~ 0
@@ -589,7 +578,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 3800 8200 3800
 Wire Wire Line
-	8200 2950 8200 3800
+	8200 3800 8200 2950
 Wire Wire Line
 	8050 2950 8250 2950
 Connection ~ 7000 3050
@@ -811,4 +800,15 @@ F1 "lipo-boost-10v.sch" 60
 $EndSheet
 Wire Wire Line
 	8800 5500 8800 5550
+$Comp
+L CP1 C1
+U 1 1 54D2FE33
+P 8600 1700
+F 0 "C1" H 8650 1800 50  0000 L CNN
+F 1 "220u" H 8650 1600 50  0000 L CNN
+F 2 "" H 8600 1700 60  0000 C CNN
+F 3 "" H 8600 1700 60  0000 C CNN
+	1    8600 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

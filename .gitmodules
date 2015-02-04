@@ -1,3 +1,6 @@
 [submodule "kicad-lib"]
 	path = kicad-lib
 	url = https://github.com/SyrianSpock/kicad-lib/
+[submodule "bom/kicad-bom-handler"]
+	path = bom/kicad-bom-handler
+	url = https://github.com/SyrianSpock/kicad-bom-handler
