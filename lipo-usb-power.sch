@@ -287,4 +287,6 @@ $EndComp
 Wire Wire Line
 	7900 3250 7900 3350
 Connection ~ 7900 3350
+Text Notes 8350 3500 0    60   ~ 0
+Batttery\nconnector
 $EndSCHEMATC
