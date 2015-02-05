@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201502040101+5404~21~ubuntu14.04.1-product   date = Mit 04 Feb 2015 22:56:46 CET
+Cmp-Mod V01 Created by Cvpcb 0.201502040101+5404~21~ubuntu14.04.1-product   date = Don 05 Feb 2015 13:47:16 CET
 
 BeginCmp
 TimeStamp = /54D2FE33;
@@ -144,35 +144,35 @@ BeginCmp
 TimeStamp = /54D1590C/54D215CE;
 Reference = L1;
 ValeurCmp = 4.7uH;
-IdModule  = ;
+IdModule  = _standard:Inductor2300;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CFDB2C;
 Reference = MIC1;
 ValeurCmp = MICROPHONE;
-IdModule  = ;
+IdModule  = _connectors:_Pin2mm_2;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D00EE5;
+TimeStamp = /54D36983;
 Reference = Q1;
 ValeurCmp = IRF510;
-IdModule  = ;
+IdModule  = _standard:TO-263;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D01029;
+TimeStamp = /54D36F92;
 Reference = Q2;
 ValeurCmp = IRF510;
-IdModule  = ;
+IdModule  = _standard:TO-263;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1590C/54D277B4;
 Reference = Q3;
 ValeurCmp = MMBT2222A;
-IdModule  = ;
+IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
@@ -193,7 +193,7 @@ BeginCmp
 TimeStamp = /54CFFF34;
 Reference = R3;
 ValeurCmp = 22;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = _standard:PowerRes_SM_3;
 EndCmp
 
 BeginCmp
@@ -361,56 +361,56 @@ BeginCmp
 TimeStamp = /54CFDCD6;
 Reference = RV1;
 ValeurCmp = 100k;
-IdModule  = Air_Coils_SML_NEOSID:Neosid_Air-Coil_SML_1turn_HDM0131A;
+IdModule  = Potentiometers:Potentiometer_WirePads_largePads;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CFEBED;
 Reference = RV2;
 ValeurCmp = 10k;
-IdModule  = ;
+IdModule  = Potentiometers:Potentiometer_WirePads_largePads;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D000D8;
 Reference = SP1;
 ValeurCmp = SPEAKER;
-IdModule  = ;
+IdModule  = _connectors:_Pin2mm_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1590C/54D210CF;
 Reference = SW1;
 ValeurCmp = Off Switcher;
-IdModule  = ;
+IdModule  = _connectors:_Pin2mm_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CFDECF;
 Reference = U1;
 ValeurCmp = TL082;
-IdModule  = ;
+IdModule  = SMD_Packages:SOIC-8-N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CFF0B7;
 Reference = U2;
 ValeurCmp = TL081;
-IdModule  = ;
+IdModule  = SMD_Packages:SOIC-8-N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D134FA/54D13A09;
 Reference = U3;
 ValeurCmp = MCP73831;
-IdModule  = ;
+IdModule  = SMD_Packages:SOT-23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1590C/54D15AD0;
 Reference = U4;
 ValeurCmp = LT1308;
-IdModule  = ;
+IdModule  = _standard:S8;
 EndCmp
 
 EndListe
